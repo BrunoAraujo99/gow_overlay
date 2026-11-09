@@ -12,11 +12,11 @@ A transparent, always‑on‑top overlay for the PS2 classic *God of War* (emula
 
 ## 🎮 What's New in v0.7.3
 
-- 🎚️ **Visual presets.** Pick **Inferno · Arcade · Subtle · Minimal** (or Default) from a new dropdown in **Settings** — applied live. Presets you import are saved and join the dropdown automatically. An optional **`presets.zip`** is on the [Releases](https://github.com/kb777only/gow_overlay/releases) page.
+- 🎚️ **Visual presets.** Pick **Inferno · Arcade · Subtle · Minimal** (or Default) from a new dropdown in **Settings** — applied live. Presets you import are saved and join the dropdown automatically. An optional **`presets.zip`** is on the [Releases](https://github.com/BrunoAraujo99/gow_overlay/releases) page.
 - 📈 **Damage FX rescaled for a whole playthrough.** Number size, colour and epic‑impact now ramp **logarithmically** across the entire damage range — tiny early hits stay clean, while the fire and explosions show up more and more as your damage grows.
 - 🩸 **The settings window is God of War themed too** now — black with blood‑red text, matching the launcher.
 
-Recent releases: **v0.7.2** bundled the real God of War font (numbers *and* UI, no install needed), themed the launcher, made closing it stop the overlay (and closing the game stop it too), and split the log modes; **v0.7.1** added US/NTSC `SCUS‑97399` support; **v0.7.0** animated the numbers with fire, exploding fireballs and molten gradients. Full history in [Releases](https://github.com/kb777only/gow_overlay/releases).
+Recent releases: **v0.7.2** bundled the real God of War font (numbers *and* UI, no install needed), themed the launcher, made closing it stop the overlay (and closing the game stop it too), and split the log modes; **v0.7.1** added US/NTSC `SCUS‑97399` support; **v0.7.0** animated the numbers with fire, exploding fireballs and molten gradients. Full history in [Releases](https://github.com/BrunoAraujo99/gow_overlay/releases).
 
 ## ✨ Features
 
@@ -31,11 +31,11 @@ Recent releases: **v0.7.2** bundled the real God of War font (numbers *and* UI, 
 
 - **Windows 10/11** (the prebuilt `.exe` bundles Python) **or Linux** (X11 or Wayland — see [Linux notes](#-linux-notes)).
 - **PCSX2** v1.7+ with its **PINE** server — the overlay turns PINE on for you, or points to where to click.
-- **God of War** — PAL `SCES‑53133` and US/NTSC `SCUS‑97399`, auto‑detected. Other regions are detected for enemies/damage and just need a quick camera calibration to place the numbers — [open an issue](https://github.com/kb777only/gow_overlay/issues).
+- **God of War** — PAL `SCES‑53133` and US/NTSC `SCUS‑97399`, auto‑detected. Other regions are detected for enemies/damage and just need a quick camera calibration to place the numbers — [open an issue](https://github.com/BrunoAraujo99/gow_overlay/issues).
 
 ## 🚀 Quick Start
 
-Grab a build from [Releases](https://github.com/kb777only/gow_overlay/releases):
+Grab a build from [Releases](https://github.com/BrunoAraujo99/gow_overlay/releases):
 
 | Platform | File | Run it |
 |---|---|---|
@@ -73,12 +73,12 @@ Settings, presets and logs live next to the executable, or under `~/.config/gow_
 
 ## 🐞 Reporting bugs
 
-Every run is logged (with full crash tracebacks). In the launcher, click **📋 Copy last log**, then **🐞 Report an issue**, and paste it into a [GitHub issue](https://github.com/kb777only/gow_overlay/issues).
+Every run is logged (with full crash tracebacks). In the launcher, click **📋 Copy last log**, then **🐞 Report an issue**, and paste it into a [GitHub issue](https://github.com/BrunoAraujo99/gow_overlay/issues).
 
 ## 🛠️ For developers
 
 ```bash
-git clone https://github.com/kb777only/gow_overlay.git
+git clone https://github.com/BrunoAraujo99/gow_overlay.git
 cd gow_overlay && pip install -r requirements.txt
 python ./app/launcher.py        # run from source
 
